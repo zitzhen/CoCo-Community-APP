@@ -6,7 +6,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="137dp"
+        android:layout_width="102dp"
         android:layout_height="wrap_content"
         android:text="论坛"
         tools:layout_editor_absoluteX="0"
@@ -14,17 +14,25 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="137dp"
+        android:layout_width="102dp"
         android:layout_height="48dp"
         android:text="插件"
-        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="685dp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="137dp"
+        android:layout_width="102dp"
         android:layout_height="48dp"
         android:text="笔记"
-        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="685dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="102dp"
+        android:layout_height="48dp"
+        android:text="我的"
+        tools:layout_editor_absoluteX="306dp"
         tools:layout_editor_absoluteY="685dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
