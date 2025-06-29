@@ -1,0 +1,17 @@
+<!-- res/drawable/div_style.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 淡白色背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF5F5F5" /> <!-- 淡白色 -->
+            <corners android:radius="8dp" />   <!-- 圆角（可选） -->
+        </shape>
+    </item>
+    <!-- 右侧阴影 -->
+    <item android:right="2dp"> <!-- 阴影偏移量 -->
+        <shape android:shape="rectangle">
+            <solid android:color="#20000000" /> <!-- 半透明黑色阴影 -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
