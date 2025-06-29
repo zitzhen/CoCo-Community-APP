@@ -37,9 +37,12 @@
         tools:layout_editor_absoluteX="306dp"
         tools:layout_editor_absoluteY="685dp" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <View
+        android:layout_width="411dp"
+        android:layout_height="108dp"
+        android:background="@drawable/div_style"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="17dp" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -56,19 +59,17 @@
             android:text="正在加载"
             tools:layout_editor_absoluteX="103dp"
             tools:layout_editor_absoluteY="33dp"
-        <!--控件名字--><![CDATA[/>
+        <!--控件名字-->
 
-        ]]>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="81dp"
+        android:layout_height="41dp"
+        android:text=">"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="73dp" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="81dp"
-            android:layout_height="41dp"
-            android:text=">"
-            tools:layout_editor_absoluteX="332dp"
-            tools:layout_editor_absoluteY="73dp" />
-
-        <TextView
+    <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,8 +84,8 @@
             android:text="⬇️正在加载"
             tools:layout_editor_absoluteX="102dp"
             tools:layout_editor_absoluteY="82dp" />
+    />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
