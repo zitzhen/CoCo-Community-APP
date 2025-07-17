@@ -46,7 +46,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="继续代表您同意我们的《用户协议》"
+        android:textColor="#333333"
+        android:clickable="true"
+        android:focusable="true"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="654dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
