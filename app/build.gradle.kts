@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.coco_community"
+    namespace = "com.zitzhen.coco_community"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.coco_community"
+        applicationId = "com.zitzhen.coco_community"
         minSdk = 25
         targetSdk = 35
         versionCode = 1
