@@ -1,4 +1,4 @@
-package com.example.coco_community;
+package com.zitzhen.coco_community;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
