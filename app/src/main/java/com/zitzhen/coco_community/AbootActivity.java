@@ -7,6 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
+
 public class AbootActivity extends AppCompatActivity {
 
     @Override
@@ -34,7 +37,7 @@ public class AbootActivity extends AppCompatActivity {
         });
 
         CheckupdateButton.setOnClickListener(view -> {
-            new AlertDialog.Builder(this)
+            new MaterialAlertDialogBuilder(this)
                     .setTitle("自动更新")
                     .setMessage("自动更新已被禁止")
                     .setPositiveButton("确定", null)
