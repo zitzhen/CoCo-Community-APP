@@ -128,7 +128,7 @@
             app:iconPadding="8dp"
             app:backgroundTint="@color/primary_color"
             android:paddingVertical="14dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+             />
 
         <!-- 发布文章按钮 -->
         <com.google.android.material.button.MaterialButton
@@ -143,7 +143,7 @@
             app:iconPadding="8dp"
             app:backgroundTint="@color/secondary_color"
             android:paddingVertical="14dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+            />
     </LinearLayout>
 
 </LinearLayout>
