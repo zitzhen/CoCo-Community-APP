@@ -69,7 +69,6 @@
                 android:text="@string/user_agreement"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                 android:textColor="?attr/colorOnSurface"
-                app:icon="@drawable/ic_description"
                 app:iconGravity="textStart"
                 app:iconPadding="16dp"
                 app:iconTint="?attr/colorOnSurfaceVariant"/>
@@ -93,7 +92,6 @@
                 android:text="@string/privacy_policy"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                 android:textColor="?attr/colorOnSurface"
-                app:icon="@drawable/ic_privacy_tip"
                 app:iconGravity="textStart"
                 app:iconPadding="16dp"
                 app:iconTint="?attr/colorOnSurfaceVariant"/>
@@ -117,7 +115,6 @@
                 android:text="@string/Check_update"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                 android:textColor="?attr/colorOnSurface"
-                app:icon="@drawable/ic_privacy_tip"
                 app:iconGravity="textStart"
                 app:iconPadding="16dp"
                 app:iconTint="?attr/colorOnSurfaceVariant"/>
