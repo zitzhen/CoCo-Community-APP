@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CoCo-community</string>
+    <string name="version">版本：1.0.0</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="Check_update">检查更新</string>
 </resources>

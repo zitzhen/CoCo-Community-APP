@@ -14,15 +14,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoCocommunity"
         tools:targetApi="31">
+
+        <!-- 主页面 -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+                <data android:scheme="zit-coco-community"/>
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- 关于页面 -->
+        <activity
+            android:name=".AbootActivity"
+            android:exported="false" />
+
+    </application>
 </manifest>
