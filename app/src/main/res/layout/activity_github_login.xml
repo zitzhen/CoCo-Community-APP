@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <!-- GitHub 猫咪图标 -->
+    <ImageView
+        android:id="@+id/github_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/github_icon"
+        android:contentDescription="GitHub Icon" />
+
+    <!-- GitHub 登录按钮 -->
+    <Button
+        android:id="@+id/github_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用 GitHub 登录"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:backgroundTint="#24292e"
+        android:padding="12dp" />
+
+</LinearLayout>
