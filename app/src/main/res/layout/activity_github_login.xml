@@ -27,4 +27,13 @@
         android:backgroundTint="#24292e"
         android:padding="12dp" />
 
+    <Button
+        android:id="@+id/retun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回首页"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:backgroundTint="#24292e"
+        android:padding="12dp" />
 </LinearLayout>
