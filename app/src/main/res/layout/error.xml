@@ -63,7 +63,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="code"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="507dp" />
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/retryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
