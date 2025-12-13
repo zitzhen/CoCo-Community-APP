@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zitzhen.coco_community">
+
+    <!-- 网络权限 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -15,21 +18,34 @@
         android:theme="@style/Theme.CoCocommunity"
         tools:targetApi="31">
 
-        <!-- 主页面 -->
+        <!-- 主页面（唯一的 MainActivity） -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+            <!-- 启动器入口 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-                <data android:scheme="zit-coco-community"/>
             </intent-filter>
+
+            <!-- 自定义 Scheme：zit-coco-community:// -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="zit-coco-community" />
+            </intent-filter>
+
         </activity>
 
         <!-- 关于页面 -->
         <activity
-            android:name=".AbootActivity"
+            android:name=".AboutActivity"
             android:exported="false" />
 
     </application>
+
 </manifest>
