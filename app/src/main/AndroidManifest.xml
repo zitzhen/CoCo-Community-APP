@@ -49,7 +49,18 @@
         <!-- 登录页面 -->
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="true">
+            
+            <!-- OAuth回调处理 -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" 
+                      android:host="cc.zitzhen.cn" 
+                      android:pathPrefix="/auth/github" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
